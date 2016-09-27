@@ -1,0 +1,19 @@
+.logged-out {
+    background: gainsboro url("../img/WhatAreYouLookingAt.jpg") no-repeat center 30px;
+    background-size: 90%;
+}
+
+#stamos{
+  background-color: red
+}
+
+.logged-in {
+    background: gainsboro url("../img/CCTVMobile.jpg") no-repeat center 80px;
+}
+.logged-out {
+    background: gainsboro url("../img/WhatAreYouLookingAt.jpg") no-repeat center 30px;
+    background-size: 90%;
+}
+.pull-right {
+    float:right;
+}
