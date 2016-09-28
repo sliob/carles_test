@@ -6,8 +6,8 @@ import os
 
 
 def index(request):
-    return render_to_response("larb/index.html", context_instance=RequestContext(request))
-    #return render_to_response("larb/index.html", RequestContext(request))
+    #return render_to_response("larb/index.html", context_instance=RequestContext(request))
+    return render_to_response("larb/index.html", RequestContext(request))
     # return render(request, "larb/index.html")
     #
     #return render(request, '/larb/index.html')

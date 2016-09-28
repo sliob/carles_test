@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
     'django.contrib.sites',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.twitter',
 ]
 SITE_ID = 1
 
@@ -66,6 +68,7 @@ MIDDLEWARE_CLASSES = [
 ]
 
 ROOT_URLCONF = 'carles_test.urls'
+
 """
 TEMPLATES = [
     {

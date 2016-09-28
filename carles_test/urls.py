@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include, patterns
 from django.contrib import admin
-from larb import views
+#from larb import views
 
 admin.autodiscover()
 
