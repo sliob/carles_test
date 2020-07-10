@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="2020_46077_002_Las_Moratillas" id="2020_46077_002_Las_Moratillas">
+	<SimpleField name="Paraje" type="string"></SimpleField>
+	<SimpleField name="Municipio" type="string"></SimpleField>
+	<SimpleField name="Area" type="float"></SimpleField>
+	<SimpleField name="COMENTARIO" type="string"></SimpleField>
+	<SimpleField name="Notas" type="string"></SimpleField>
+	<SimpleField name="ORIGEN" type="string"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+	<SimpleField name="ESTADO" type="string"></SimpleField>
+	<SimpleField name="ENCOMIENDA" type="string"></SimpleField>
+	<SimpleField name="RECURRENTE" type="string"></SimpleField>
+	<SimpleField name="BBDD_PLA_4" type="float"></SimpleField>
+</Schema>
+<Folder><name>2020_46077_002_Las_Moratillas</name>
+  <Placemark>
+	<name>2020/46077/002</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#2020_46077_002_Las_Moratillas">
+		<SimpleData name="Paraje">Las Moratillas</SimpleData>
+		<SimpleData name="Municipio">Buñol</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-0.960927348500604,39.4097019754626 -0.961236521206012,39.4101406708879 -0.9611450208244,39.4101747768396 -0.960749109054592,39.4101468669636 -0.960565451005932,39.4101406738912 -0.960291645735955,39.4102620402624 -0.959995208054424,39.410378343397 -0.959683942076931,39.4104671180142 -0.959513850889196,39.4104671174504 -0.959260799883217,39.4104607533021 -0.959126991365062,39.4104321607283 -0.958958467186609,39.4103878193099 -0.958663821237179,39.4102267692156 -0.95843365478843,39.4100461843191 -0.958736804743069,39.4094603428182 -0.95881490900226,39.4093833063499 -0.958900992397481,39.4093339691054 -0.959181372843352,39.4092142805857 -0.959275132490298,39.4091683185797 -0.959524671178452,39.4088987956463 -0.960246953922566,39.408877540585 -0.96037099718137,39.4088801938444 -0.960456491701424,39.4090711159216 -0.960474542144854,39.4092559591518 -0.960540086054593,39.4093742257716 -0.960927348500604,39.4097019754626</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
